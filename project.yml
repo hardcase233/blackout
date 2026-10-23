@@ -1,0 +1,24 @@
+name: Blackout
+options:
+  bundleIdPrefix: com.hardcase233
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  Blackout:
+    type: application
+    platform: iOS
+    sources: [Blackout]
+    info:
+      path: Blackout/Info.plist
+      properties:
+        UILaunchScreen:
+          UIColorName: ""
+        UIStatusBarHidden: true
+        UIViewControllerBasedStatusBarAppearance: false
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.hardcase233.blackout
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        CODE_SIGNING_ALLOWED: NO
